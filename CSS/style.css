@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  scroll-behavior: smooth;
+  font-family: "Rubik", sans-serif;
+  background-image: url("/images/photos/bg-img.jpg");
+}
+header {
+  background: white;
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header h2 {
+  color: #5cd172;
+}
+ul .home {
+  color: black;
+}
+ul a {
+  padding: 10px;
+  margin-left: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #5cd172;
+}
+.banner {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-image: url("/images/photos/banner-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.banner .banner-left {
+  width: 35%;
+}
+.banner .banner-left h1 {
+  color: #5cd172;
+}
+.banner .banner-left p {
+  margin: 20px 0;
+  line-height: 24px;
+}
+.banner .banner-left .get-btn {
+  background-color: #5cd172;
+  color: white;
+  border: 0;
+  padding: 8px 40px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.banner .banner-left .news-btn {
+  background-color: black;
+  color: white;
+  border: 0;
+  padding: 8px 40px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+.banner img {
+  padding-top: 10px;
+  width: 22%;
+}
