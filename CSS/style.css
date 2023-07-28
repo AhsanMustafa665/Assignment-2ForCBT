@@ -22,7 +22,7 @@ header {
   display: none;
 }
 header h2 {
-  color: #5cd172;
+  color: #31aa7d;
   margin-left: 80px;
   cursor: pointer;
 }
@@ -35,7 +35,7 @@ ul a {
   margin-left: 10px;
   text-decoration: none;
   font-weight: 600;
-  color: #5cd172;
+  color: #31aa7d;
 }
 ul #home:hover {
   background-color: black;
@@ -44,13 +44,13 @@ ul #home:hover {
 }
 ul a:hover {
   background-color: white;
-  color: #5cd172;
+  color: #31aa7d;
   box-shadow: 0 0 10px rgb(189, 183, 183);
   border-radius: 10px;
 }
 ul #login:hover,
 ul #signup:hover {
-  outline: 1px solid #5cd172;
+  outline: 1px solid #31aa7d;
   box-shadow: none;
 }
 .banner {
@@ -65,14 +65,14 @@ ul #signup:hover {
   width: 35%;
 }
 .banner .banner-left h1 {
-  color: #5cd172;
+  color: #31aa7d;
 }
 .banner .banner-left p {
   margin: 20px 0;
   line-height: 24px;
 }
 .banner .banner-left .get-btn {
-  background-color: #5cd172;
+  background-color: #31aa7d;
   color: white;
   border: 0;
   padding: 8px 40px;
@@ -109,7 +109,7 @@ ul #signup:hover {
 .products-title h2,
 .team-title h2,
 .blogs-title h2 {
-  color: #5cd172;
+  color: #31aa7d;
 }
 .products-title p,
 .team-title p,
@@ -137,6 +137,7 @@ ul #signup:hover {
   box-shadow: 0 0 4px rgba(97, 128, 112, 0.329);
   border-radius: 20px;
   text-align: center;
+  cursor: pointer;
 }
 .single-product img {
   margin: 20px 0;
@@ -148,10 +149,10 @@ ul #signup:hover {
   border-top-right-radius: 20px;
 }
 .single-product h3 {
-  color: #5cd172;
+  color: #31aa7d;
 }
 .single-person h3 {
-  color: #5cd172;
+  color: #31aa7d;
   margin-top: 10px;
 }
 .single-product p {
@@ -169,7 +170,7 @@ ul #signup:hover {
   margin-left: -4px;
 }
 .single-product button {
-  background-color: #5cd172;
+  background-color: #31aa7d;
   color: white;
   border: 0;
   width: 100%;
@@ -182,7 +183,7 @@ ul #signup:hover {
   cursor: pointer;
 }
 .browser-btn {
-  background-color: #5cd172;
+  background-color: #31aa7d;
   color: white;
   border: 0;
   padding: 8px 40px;
@@ -210,7 +211,7 @@ ul #signup:hover {
 }
 .date i {
   font-weight: bold;
-  color: #5cd172;
+  color: #31aa7d;
   margin-right: 10px;
 }
 .date h5 {
@@ -224,14 +225,14 @@ ul #signup:hover {
 }
 .single-blog h5 {
   font-size: 15px;
-  color: #5cd172;
+  color: #31aa7d;
 }
 .single-blog p {
   font-size: 14px;
   margin-top: 7px;
 }
 .single-blog button {
-  color: #5cd172;
+  color: #31aa7d;
   font-weight: bold;
   margin-top: 10px;
   border: 0;
@@ -285,7 +286,7 @@ footer {
   text-decoration: underline;
 }
 hr {
-  border: 0.1px solid #5cd172;
+  border: 0.1px solid #31aa7d;
   opacity: 0.21;
 }
 footer p {
@@ -293,7 +294,7 @@ footer p {
   padding: 10px 0;
 }
 footer p span {
-  color: #5cd172;
+  color: #31aa7d;
   font-weight: bold;
 }
 
@@ -316,7 +317,7 @@ footer p span {
   .navbar i {
     display: block;
     font-size: 25px;
-    margin-left: 140px;
+    margin-left: 115px;
     border: 1px solid gainsboro;
     padding: 4px 12px;
     border-radius: 5px;
@@ -377,7 +378,7 @@ footer p span {
     margin-left: -4px;
   }
   .single-product button {
-    background-color: #5cd172;
+    background-color: #31aa7d;
     color: white;
     border: 0;
     width: 100%;
