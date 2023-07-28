@@ -4,8 +4,10 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
+html {
   scroll-behavior: smooth;
+}
+body {
   font-family: "Rubik", sans-serif;
   background-image: url("/images/photos/bg-img.jpg");
 }
@@ -16,18 +18,40 @@ header {
   justify-content: space-around;
   align-items: center;
 }
+.navbar i {
+  display: none;
+}
 header h2 {
   color: #5cd172;
+  margin-left: 80px;
+  cursor: pointer;
 }
-ul .home {
+ul #home {
   color: black;
+  border-radius: 10px;
 }
 ul a {
-  padding: 10px;
+  padding: 8px 15px;
   margin-left: 10px;
   text-decoration: none;
   font-weight: 600;
   color: #5cd172;
+}
+ul #home:hover {
+  background-color: black;
+  color: white;
+  box-shadow: none;
+}
+ul a:hover {
+  background-color: white;
+  color: #5cd172;
+  box-shadow: 0 0 10px rgb(189, 183, 183);
+  border-radius: 10px;
+}
+ul #login:hover,
+ul #signup:hover {
+  outline: 1px solid #5cd172;
+  box-shadow: none;
 }
 .banner {
   display: flex;
@@ -96,6 +120,9 @@ ul a {
   width: 50%;
   text-align: center;
 }
+.blogs-title {
+  margin-top: 60px;
+}
 .products,
 .team {
   padding: 0 10%;
@@ -107,7 +134,7 @@ ul a {
 .single-person,
 .single-blog {
   background: white;
-  box-shadow: 0 0 6px rgba(97, 128, 112, 0.329);
+  box-shadow: 0 0 4px rgba(97, 128, 112, 0.329);
   border-radius: 20px;
   text-align: center;
 }
@@ -246,6 +273,17 @@ footer {
   display: block;
   line-height: 35px;
 }
+.about-text a:hover {
+  text-decoration: underline;
+}
+.pharmacy-name {
+  font-weight: normal;
+  color: white;
+}
+.pharmacy-name:hover {
+  color: white;
+  text-decoration: underline;
+}
 hr {
   border: 0.1px solid #5cd172;
   opacity: 0.21;
@@ -257,4 +295,135 @@ footer p {
 footer p span {
   color: #5cd172;
   font-weight: bold;
+}
+
+/* Mobile Device */
+@media only screen and (max-width: 480px) and (min-width: 0px) {
+  header {
+    display: block;
+  }
+  header h2 {
+    width: 50%;
+    margin-left: 0px;
+    padding-left: 30px;
+  }
+  header ul {
+    display: none;
+  }
+  .navbar {
+    display: flex;
+  }
+  .navbar i {
+    display: block;
+    font-size: 25px;
+    margin-left: 140px;
+    border: 1px solid gainsboro;
+    padding: 4px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .banner {
+    display: block;
+    width: 100%;
+  }
+  .banner .banner-left {
+    width: 100%;
+    padding: 30px 50px 50px 30px;
+  }
+  .banner .banner-left .get-btn {
+    padding: 8px 15px;
+  }
+  .banner .banner-left .news-btn {
+    padding: 8px 17px;
+  }
+  .banner img {
+    display: none;
+  }
+  .products-title,
+  .team-title,
+  .blogs-title {
+    text-align: center;
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  .products-title p,
+  .team-title p,
+  .blogs-title p {
+    line-height: 22px;
+    width: 100%;
+    padding: 0 20px;
+  }
+  .products,
+  .team,
+  .blogs {
+    padding: 0 5%;
+    display: block;
+  }
+  .single-product {
+    margin: 20px 0;
+  }
+  .single-product img {
+    margin: 2px 0;
+    width: 60%;
+  }
+  .single-product p {
+    margin: 10px 0;
+    padding: 0 20px;
+  }
+  .single-product i {
+    margin: 10px 0;
+    color: orange;
+    margin-left: -4px;
+  }
+  .single-product button {
+    background-color: #5cd172;
+    color: white;
+    border: 0;
+    width: 100%;
+    padding: 8px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  .single-person,
+  .single-blog {
+    margin-bottom: 20px;
+  }
+  .single-person p {
+    padding-bottom: 20px;
+  }
+  .about-text {
+    margin-top: 40px;
+    padding: 40px 0;
+    display: block;
+    font-size: 15px;
+    text-align: center;
+  }
+  .about-text .left {
+    width: 60%;
+    margin: 0 auto;
+  }
+  .about-text .left h3 {
+    margin-bottom: 20px;
+  }
+  .about-text .left p {
+    text-align: center;
+    line-height: 23px;
+  }
+  .about-text a {
+    text-decoration: none;
+    color: rgb(222, 216, 216);
+    display: block;
+    line-height: 35px;
+  }
+  footer p {
+    text-align: center;
+    padding: 10px 0;
+  }
+}
+@media only screen and (max-width: 768px) and (min-width: 481px) {
 }

@@ -23,14 +23,17 @@
   </head>
   <!-- Navbar here -->
   <header>
-    <h2>M.PharmaBD</h2>
+    <div class="navbar">
+      <h2>M.PharmaBD</h2>
+      <i class="fa-solid fa-bars"></i>
     <ul>
-      <a class="home" href="#home">Home</a>
+      <a id="home" href="#home">Home</a>
       <a href="#products">Products</a>
       <a href="#about">About Us</a>
+      <a href="#blogs">Blogs</a>
       <a href="#contact">Contact</a>
-      <a href="#login">Login</a>
-      <a href="#signup">Signup</a>
+      <a id="login" href="#login">Login</a>
+      <a id="signup" href="#signup">Signup</a>
     </ul>
   </header>
   <body>
@@ -50,7 +53,7 @@
       <img src="./images/photos/banner-doc.png" alt="banner-doctor-img" />
     </div>
     <!-- Products here -->
-    <div class="products-title">
+    <div id="products" class="products-title">
       <h2>OUR LATEST PRODUCTS</h2>
       <p>
         Modern Pharmacy BD is an online pharmacy that offers professional home
@@ -196,7 +199,7 @@
     </div>
     <button class="browser-btn">Browse More</button>
     <!-- Team here -->
-    <div class="team-title">
+    <div id="about" class="team-title">
       <h2>OUR TEAM</h2>
       <p>
         Patients receive primary care from a doctor of internal medicine and a
@@ -294,10 +297,11 @@
       <div class="left">
         <h3>About Our Company</h3>
         <p>
-          Bangladesh's most convenient online pharmacy, Bangladesh Pharmacy, is
-          brought to you by the Dadha & Company - one of Bangladesh's most
-          trusted pharmacies, with over 100 years’ experience in dispensing
-          quality medicines.
+          Bangladesh's most convenient online pharmacy,
+          <span class="pharmacy-name">Bangladesh Pharmacy</span> is brought to
+          you by the Dadha & Company - one of Bangladesh's most trusted
+          pharmacies, with over 100 years’ experience in dispensing quality
+          medicines.
         </p>
       </div>
       <div class="middle">
@@ -312,6 +316,6 @@
       </div>
     </div>
     <hr />
-    <p>Copyright ® 2021 All Rights Reserved by | <span>MOSTAFA</span></p>
+    <p>Copyright © 2023 All Rights Reserved by | <span>MOSTAFA</span></p>
   </footer>
 </html>
